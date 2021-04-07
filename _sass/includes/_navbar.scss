@@ -19,6 +19,7 @@
   display: inline-block;
   float: left;
   width: 100%;
+  color: #d7d8d7;
 
   .separator {
     user-select: none;
@@ -49,7 +50,9 @@
     font-weight: bold;
     font-family: $font-family-logo;
     font-size: 1.3em;
+    color: #d7d8d7
   }
+
 }
 
 nav {
@@ -71,9 +74,11 @@ nav {
     display: inline;
     float: left;
     margin-right: 0.4em;
+    color: #d7d8d7;
   }
 
   a {
+    color: #d7d8d7;
     &:hover {
       color: $link-color;
     }

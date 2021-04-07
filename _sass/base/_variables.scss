@@ -25,7 +25,7 @@ $x-sm-break: 300px;
 
 // Brand colours
 $theme-color: #337ab7;
-$brand-color: #fff;
+$brand-color: #343a40;
 $background-color: #fff;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
@@ -39,11 +39,11 @@ $blockquote-color: #EEF7FA; // $background-color;
 // Header
 $header-background-color: darken($theme-color, 50%); // Only used when no header image
 $header-text-color: #fff;
-$header-link-color: #383838;
+$header-link-color: #d7d8d7;
 $navbar-separator-opacity: 0;
 
 // Feature image for articles
-$feature-image-text-color: #fff;
+$feature-image-text-color: #343a40;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 //Search colours
