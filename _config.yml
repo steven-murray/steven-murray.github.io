@@ -37,6 +37,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:name
+  codes:
 
 # BUILD SETTINGS
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
