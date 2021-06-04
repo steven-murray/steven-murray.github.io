@@ -6,51 +6,43 @@ feature-img: "assets/img/pexels/travel.jpeg"
 tags: [About, Archive]
 ---
 
-I grew up in rural Queensland, Australia (Gympie, to be exact — home to the infamous 
-Gympie Gympie plant). I was interested in science from a fairly young age, though probably 
-more interested in mathematical problems. From about the age of eight I remember thinking 
-that I’d be a physicist when I grew up — I’m fairly sure that was on a recommendation by
-my awesome parents. My interest, really, was the “big questions”: what is the Universe?, 
-why is it here?, how can we describe it?, how old is it?
+I grew up in rural Queensland, Australia. I was interested in science -- and especially
+the biggest questions -- from a young age. Thanks to my parents for that!
 
-I loved school, and I set myself constant challenges. Meanwhile, I enjoyed playing sports 
-(mostly cricket, but a bit of soccer, tennis and rugby as well). I also learned piano 
-from a fairly young age, and ended up using that particular skill to earn some money in
-my teenage years, teaching.
+My secondary education was at (Matthew Flinders Anglican College)[https://mfac.edu.au].
 
-I went to high school at Matthew Flinders Anglican College (MFAC) on the Sunshine Coast, 
-which was an excellent school, both for academics and music (I had the opportunity to 
-play in the concert band at the Sydney Opera House!). I ended up focusing on maths and 
-physics, which set up my future fairly well.
+I obtained my undergraduate degree from the (University of Queensland)[https://www.uq.edu.au/]
+majoring in mathematics and minoring in physics.
 
-I went to the University of Queensland for my undergrad degree, majoring in mathematics
-(actually, I did half + 1 of my subjects in maths, and half – 1 in physics, and so just 
-missed out on a double-major). I made up the extra physics subject in my honours year 
-at the University of Western Australia.
+I moved to Western Australia to complete my honours thesis project at (UWA)[https://www.uwa.edu.au],
+with (Prof. John Harnett)[https://peoplepill.com/people/john-hartnett-2]. This project
+focussed on determining the 2-point correlation function of galaxies in the SDSS and GAMA
+surveys.
 
-Between UQ and UWA I took a year off to get to know (and marry!) my wonderful wife 
-Jeanette, which we spent in Toowoomba (which is also incidentally one of my favourite 
-towns in the world). Right after we got married we headed to Western Australia (our 
-honeymoon was the drive over!), so I could start my Honours project with Prof. John 
-Hartnett.
+Between UQ and UWA I took a year off to get to know (and marry!) my wonderful wife
+Jeanette. It wasn't long before we became a family of five. Our three kids Emily, 
+Joshua and Caleb have been an immense joy and source of energy throughout the whole adventure.
 
-For my Honours project, I worked on large-scale structure in the SDSS and GAMA surveys, 
-focusing on some peculiar features in the galaxy distribution which potentially indicated
-periodic radial density perturbations around our galaxy. While the peculiar features 
-turned out to be statistically insignificant, I learned a great deal about understanding 
-the large scale structure (correlation functions and power spectra etc.) in that year, 
-and took that with me to my PhD, for which I stayed at UWA and my supervisors were Chris
-Power and Aaron Robotham.
+I commenced my PhD at UWA with supervisors (Chris Power)[https://www.icrar.org/people/cpower/]
+and (Aaron Robotham)[https://www.icrar.org/people/arobotham/].
+My (PhD thesis)[https://zenodo.org/record/495509] focussed on dark matter and large-scale
+structures in the Universe -- broadly following on from my honours thesis. 
+Throughout the PhD I developed several computational tools for calculating dark matter
+halo mass functions and halo model statistics. 
+The evolution of this work has become a web-application at https://thehalomod.app.
 
-During this time, my wife and I had three kids — Emily was born just before I started my
-PhD, Joshua was born in the middle, and Caleb was born a couple of months before I submitted.
-They’ve been an immense joy and source of energy throughout the whole adventure.
+Following my PhD, I transitioned into radio astronomy, specifically Epoch of 
+Reionization and Cosmic Dawn, in a postdoc position with (Prof. Cath Trott)[https://www.icrar.org/people/ctrott/]
+at another Western Australian university -- (Curtin)[https://www.curtin.edu.au/].
+There, I focussed on the interface of theory and observation, deriving statistical 
+models of what observations can really tell us about the signal we seek from the early
+Universe.
 
-Following my PhD, I transitioned mainly into radio astronomy, specifically Epoch of 
-Reionization and Cosmic Dawn, in a postdoc position with Cath Trott.
+I continue that line of work now at (Arizona State University)[https://asu.edu] in 
+the (Low-Frequency Cosmology group)[http://loco.lab.asu.edu/]. 
 
-The cool thing is, those big questions that I started out with are exactly the ones I 
-get to research in detail every day. I’m looking for the signature of the very first 
-stars in the Universe! I consider the effects of mysterious quantities such as dark 
-matter and dark energy, and I do all of this using the language of physics: mathematics.
-I truly feel blessed to have landed in this position.
+My main interests are in validating our observational pipelines via simulation and 
+statistical models, and developing high-performance cosmological reionization codes.
+I am an avid Python programmer, and have written many full-fledged pieces of software
+to enable cosmological analysis and prediction. I am also an open-source advocate, 
+having published several pieces of code in the (Journal of Open Source Software)[https://joss.theoj.org/].
