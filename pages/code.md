@@ -2,7 +2,7 @@
 layout: page
 title: Code
 permalink: /code/
-feature-img: "assets/img/pexels/travel.jpeg"
+feature-img: "assets/img/pexels/code.jpg"
 tags: [Code]
 ---
 

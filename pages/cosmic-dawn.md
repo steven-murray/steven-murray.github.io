@@ -2,7 +2,7 @@
 layout: page
 title: Cosmic Dawn
 permalink: /cosmic-dawn/
-feature-img: "assets/img/pexels/travel.jpeg"
+feature-img: "assets/img/pexels/space.jpg"
 tags: [EoR, Cosmic Dawn]
 ---
 
