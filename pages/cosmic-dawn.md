@@ -9,10 +9,6 @@ tags: [EoR, Cosmic Dawn]
 > **Note:** this is intended to be a layman's description of my main research motivation. 
 > For more technical descriptions of my current projects, see my [Research](research).
 
-My main research interest is to attempt to detect and characterize important periods in 
-our Universe’s history: the so-called “Cosmic Dawn” and “Epoch of Reionization”. What 
-are these, and how are we trying to detect them?
-
 Cosmic Dawn refers to the time in the Universe’s past when the first stars and galaxies 
 burst into life. We know such a time exists, simply because we know there was a time 
 without stars in the early Universe, and we know there are stars now. At some point, the 
