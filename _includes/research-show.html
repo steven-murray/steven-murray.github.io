@@ -1,0 +1,32 @@
+<!-- Portfolio Grid Section -->
+<div class="row">
+    {% for item in site.research_projects %}
+        {% capture image %}
+            {% if item.image != nil %}
+                /assets/img/codes/{{ item.image }}
+            {% else %}
+                /assets/img/codes/{{ item.title }}.png
+            {% endif %}
+        {% endcapture %}
+
+        <div class="col-12 highlight-panel">
+            <h1 style="font-size:200%; color: #3e3e3e">    {{ item.title }} </h1>
+
+            <figure style="display: table;padding: 0em 1em 0em 0em;float:left">
+                <img src="{{ image }}" style="display:block" width="500px">
+                <figcaption style="padding:.5em 1em 0 0;line-height:1.3em">
+                {{ include.caption }}
+                </figcaption>
+            </figure>
+
+            <p>
+                <a href="https://github.com/{{ item.gh }}"><i class="fab fa-github"></i> {{ item.gh }}</a>
+                {% if item.docs != nil %}  &nbsp; &nbsp; | &nbsp; &nbsp; <a href="https://{{ item.docs }}.readthedocs.org"><i class="fas fa-book"></i> Docs</a>{% endif %}
+                {% if item.arxiv != nil %}  &nbsp; &nbsp; | &nbsp; &nbsp; <a href="https://arxiv.org/abs/{{ item.arxiv }}"><i class="fas fa-book-open"></i> {{ item.arxiv }}</a>{% endif %}
+            </p>
+            <p style="font-size:120%">
+                {{ item.content }}
+            </p>
+        </div>
+    {% endfor %}
+</div>
