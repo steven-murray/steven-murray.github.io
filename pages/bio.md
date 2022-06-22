@@ -6,7 +6,7 @@ feature-img: "assets/img/pexels/space.jpg"
 tags: [About, Archive]
 ---
 
-> **Note:** For my in-depth technical bio, see my <a href="cv/">CV</a>.
+> **Note:** For my in-depth technical bio, see my <a href="/cv/">CV</a>.
 
 I was born and raised in Australia, and did high-school 
 at [Matthew Flinders Anglican College](https://mfac.edu.au), where I was Dux of the
