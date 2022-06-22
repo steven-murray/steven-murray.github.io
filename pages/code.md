@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Code
+title: My Software
 permalink: /code/
 feature-img: "assets/img/pexels/code.jpg"
 tags: [Code]
