@@ -3,10 +3,10 @@ baseurl: ""
 url: "https://steven-murray.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Steven G. Murray                                    # site's title
-description: "Astrophysics, code, maths."      # used by search engines
-avatar: assets/img/me-snow.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+title: Steven G. Murray                             # site's title
+description: "Astrophysics, code, maths."           # used by search engines
+avatar: assets/img/me-snow.png                      # Empty for no avatar in navbar
+favicon: assets/favicon.ico                         # Icon displayed in the tab
 
 # Header and footer text
 header_text: Steven G. Murray     # Change Blog header text
@@ -43,3 +43,5 @@ exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules"]
 
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+
+header_image_gradient: linear-gradient(rgba(72,0,72,0.8), rgba(192,72,72,0.8))

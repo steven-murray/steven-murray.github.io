@@ -82,7 +82,7 @@ header {
 /* --- Feature image --- */
 .feature-image {
   padding: 0;
-
+  
   .post-link {
     color: $feature-image-text-color;
   }
@@ -96,6 +96,13 @@ header {
     margin-bottom: 0;
     padding: $padding-large/2.5 $padding-large;
 
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgba(72,0,72,0.8), rgba(192,72,72,0.8));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(72,0,72,0.8), rgba(192,72,72,0.8)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
     .meta {
       color: rgba($feature-image-text-color, .7);
     }

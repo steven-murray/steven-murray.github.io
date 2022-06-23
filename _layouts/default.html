@@ -12,7 +12,7 @@
     <div class="content">
 
       <article {% if page.feature-img %}class="feature-image"{% endif %}>
-        <header id="main" style="background-image: url('{{ page.feature-img | relative_url }}')">
+        <header id="main" style="background: {{ site.header_image_gradient }}, url('{{ page.feature-img | relative_url }}')">
           <div class="title-padder">
             {% if page.hide_title %}
               <div class="feature-image-padding"></div>
