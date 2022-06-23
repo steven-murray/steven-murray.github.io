@@ -1,6 +1,6 @@
 <!-- Portfolio Grid Section -->
 <div class="row">
-    {% for item in site.research_projects %}
+    {% for item in site.research %}
         {% capture image %}
             {% if item.image != nil %}
                 /assets/img/codes/{{ item.image }}
@@ -10,7 +10,9 @@
         {% endcapture %}
 
         <div class="col-12 highlight-panel">
-            <h1 style="font-size:200%; color: #3e3e3e">    {{ item.title }} </h1>
+            <a href="/{{ item.name }}/">
+                <h1 style="font-size:200%; color: #3e3e3e">    {{ item.title }} </h1>
+            </a>
 
             <figure style="display: table;padding: 0em 1em 0em 0em;float:left">
                 <img src="{{ image }}" style="display:block" width="500px">
@@ -21,11 +23,13 @@
 
             <p>
                 <a href="https://github.com/{{ item.gh }}"><i class="fab fa-github"></i> {{ item.gh }}</a>
-                {% if item.docs != nil %}  &nbsp; &nbsp; | &nbsp; &nbsp; <a href="https://{{ item.docs }}.readthedocs.org"><i class="fas fa-book"></i> Docs</a>{% endif %}
-                {% if item.arxiv != nil %}  &nbsp; &nbsp; | &nbsp; &nbsp; <a href="https://arxiv.org/abs/{{ item.arxiv }}"><i class="fas fa-book-open"></i> {{ item.arxiv }}</a>{% endif %}
+                {% if item.website != nil %}  &nbsp; &nbsp; | &nbsp; &nbsp; <a href="{{ item.website }}"><i class="fas fa-external-link-alt"></i> Website</a>{% endif %}
             </p>
             <p style="font-size:120%">
                 {{ item.content }}
+            </p>
+            <p>
+                <a href="/{{ item.title }}/">Read More...</a>
             </p>
         </div>
     {% endfor %}

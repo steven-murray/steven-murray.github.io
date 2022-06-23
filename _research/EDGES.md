@@ -1,6 +1,7 @@
 ---
 title: EDGES
 gh: edges-collab
+website: https://loco.lab.asu.edu/edges
 ---
 
 The Experiment to Detect the Global EoR Signal is a focused experiment that aims to 

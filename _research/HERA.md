@@ -1,6 +1,7 @@
 ---
 title: HERA
 gh: hera-team
+website: https://reionization.org
 ---
 
 The Hydrogen Epoch of Reionization Array (HERA) is an experiment to detect spatial 

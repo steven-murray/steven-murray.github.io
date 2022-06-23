@@ -1,9 +1,9 @@
 ---
 layout: page
-title: My Research
+title: Research
 permalink: /research/
 feature-img: "assets/img/pexels/code.jpg"
-tags: [Code]
+tags: [Research]
 ---
 
 {% include research-show.html %}
