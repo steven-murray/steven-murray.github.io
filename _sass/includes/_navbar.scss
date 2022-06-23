@@ -14,12 +14,16 @@
 }
 
 .site-header {
-  padding: 2% 2% 1% 2%;
-  background: $brand-color;
+  padding: 1% 2% 1% 1%;
   display: inline-block;
   float: left;
   width: 100%;
   color: #d7d8d7;
+
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  top: 0;
 
   .separator {
     user-select: none;

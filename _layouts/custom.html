@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article {% if page.feature-img %}class="feature-image" {% endif %} style="padding:0;">
-    <header id="main" style="background: linear-gradient(rgba(72,0,72,0.8), rgba(192,72,72,0.8)), url('{{ page.feature-img | relative_url }}')">
+    <header id="main" style="background-image: {{ site.header_image_gradient }}, url('{{ page.feature-img | relative_url }}')">
         <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
         {% if include.is_post %}
         {% include post_info.html author=page.author date=page.date %}
