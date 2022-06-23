@@ -2,11 +2,6 @@
 
     <!-- Logo and title -->
 	<div class="branding">
-        {% if site.avatar %}
-		<a href="{{ '/' | relative_url }}">
-			<img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" />
-		</a>
-        {% endif %}
         <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
         {{ site.title }}
 		</a>
@@ -36,5 +31,16 @@
         {% endfor %}
     </ul>
 
+    
+   
 	</nav>
+
+    {% if site.avatar %}
+    <div class='' style="text-align: left;">
+        <a href="{{ '/' | relative_url }}">
+            <img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" />
+        </a>
+    </div>
+{% endif %}
+
 </header>
